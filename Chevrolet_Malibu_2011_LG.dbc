@@ -39,5 +39,10 @@ BU_: XXX
 BO_ 384 STEERING: 8 XXX
  SG_ NEW_SIGNAL_2 : 31|8@0- (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 47|10@0- (1,0) [0|1023] "" XXX
- SG_ NEW_SIGNAL_4 : 39|8@0- (1,0) [0|255] "" XXX
  SG_ Steering : 3|12@0- (1,0) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_4 : 39|8@0- (1,0) [0|255] "" XXX
+
+BO_ 201 ENGINE: 8 XXX
+ SG_ Engine_RPM : 15|16@0+ (0.25,0) [0|65535] "RPM" XXX
+ SG_ Cruise_Control_On/Off : 29|1@0+ (1,0) [0|1] "" XXX
+ SG_ Engine_TPS : 39|8@0+ (0.392156863,-5) [0|255] "" XXX
