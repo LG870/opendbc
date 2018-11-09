@@ -44,8 +44,13 @@ BO_ 384 STEERING: 8 XXX
 
 BO_ 201 ENGINE: 8 XXX
  SG_ Engine_RPM : 15|16@0+ (0.25,0) [0|65535] "RPM" XXX
- SG_ Cruise_Control_On/Off : 29|1@0+ (1,0) [0|1] "" XXX
  SG_ Engine_TPS : 39|8@0+ (0.392156863,0) [0|255] "" XXX
 
 BO_ 417 ACCELERATOR: 8 XXX
  SG_ Accelerator_Pedal : 55|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 401 Matches_Throttle: 8 XXX
+ SG_ Throttle : 55|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 640 NEW_MSG_1: 8 XXX
+ SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
